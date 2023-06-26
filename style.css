@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 80px; /* Add a small gap on the right side */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+}
+
+header {
+  background-image: url("path-to-your-banner-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+}
+
+#portfolio {
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 48%;
+  object-fit: cover;
+}
+
+.project .project-info {
+  width: 48%;
+}
+
+#about {
+  background-color: #fff;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+}
+
+#about img {
+  width: 48%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+#contact {
+  background-color: #333;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+#contact p {
+  margin: 5px 0;
+}
+
+#contact a {
+  color: #fff;
+  text-decoration: none;
+}
