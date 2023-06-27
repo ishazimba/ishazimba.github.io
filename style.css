@@ -287,6 +287,25 @@ h2 {
   color: #fff;
   border-radius: 20px;
 }
+.desktop-images {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  text-align: center;
+}
+.desktop-images p {
+  height: 200px;
+  width: 280px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  flex-direction: column;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 5rem;
+}
 
 .smwa-header {
   background-color: #007bff;
