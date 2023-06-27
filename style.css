@@ -16,7 +16,7 @@ nav {
   position: fixed;
   top: 0;
   width: calc(100% - 15rem);
-  z-index: 999; /* Add a higher z-index to ensure the navigation bar is on top */
+  z-index: 999;
 }
 
 nav ul {
@@ -26,8 +26,8 @@ nav ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #333; /* Set the background color to match the navigation bar */
-  opacity: 0.8; /* Add transparency to the content */
+  background-color: #333;
+  opacity: 0.8;
 }
 
 nav ul li {
@@ -55,10 +55,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 40px; /* Add margin-top to push content below the fixed navigation bar */
+  margin-top: 40px;
 }
-
-/* Add the following CSS rules */
 
 .hero-content {
   display: flex;
@@ -100,11 +98,11 @@ header {
 .icon-row i {
   font-size: 5rem;
   color: #fff;
-  margin-right: 40px; /* Add a right margin */
+  margin-right: 40px;
 }
 
 .icon-row i:not(:last-child) {
-  margin-right: 60px; /* Increase the right margin for all icons except the last one */
+  margin-right: 60px;
 }
 
 @media (max-width: 768px) {
@@ -117,21 +115,39 @@ header {
   .icon-row i {
     font-size: 24px;
   }
-}
 
-.hero-text h1 {
-  color: #fff;
-  font-size: 50px;
+  .hero-text {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .hero-icons {
+    margin-right: 0;
+  }
+
+  .icon-row {
+    justify-content: center;
+  }
+
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-text p {
+    font-size: 20px;
+  }
 }
 
 h1 {
   color: #333;
   font-size: 40px;
 }
+
 h2 {
   color: #333;
   font-size: 30px;
 }
+
 .hero-text p {
   font-size: 30px;
   color: #fff;
@@ -140,29 +156,30 @@ h2 {
   font-weight: 300;
   line-height: 1.4;
 }
+
 #portfolio {
   background-color: #f4f4f4;
   padding: 30px;
 }
+
 #portfolio h1 {
   padding-left: 50px;
 }
+
 #portfolio h2 {
   padding-left: 50px;
 }
+
 .project-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
   align-items: center;
   text-align: center;
 }
 
 .project {
-  width: calc(
-    33.33% - 20px
-  ); /* Adjust the width to evenly distribute three projects in one row with a gap */
+  width: calc(33.33% - 20px);
   box-sizing: border-box;
   padding: 5px;
   margin-bottom: 20px;
@@ -173,29 +190,34 @@ h2 {
   color: #fff;
   border-radius: 5px;
 }
+
 .project img {
   max-height: 200px;
 }
+
 .project:not(:last-child) {
-  margin-right: 10px; /* Add a right margin to create a gap between each project div */
+  margin-right: 10px;
 }
+
 .project h3 {
   color: #fff;
   font-size: 18px;
   text-decoration: none;
 }
+
 .project a {
-  text-decoration: none; /* Remove the underline */
+  text-decoration: none;
 }
+
 @media (max-width: 768px) {
   .project {
-    width: calc(50% - 10px); /* Adjust the width for smaller screens */
+    width: calc(50% - 10px);
   }
 }
 
 @media (max-width: 480px) {
   .project {
-    width: 100%; /* Adjust the width for smaller screens */
+    width: 100%;
   }
 }
 
@@ -218,6 +240,7 @@ h2 {
 .about-text {
   flex: 1;
 }
+
 #about h2 {
   color: #fff;
 }
@@ -227,7 +250,7 @@ h2 {
   color: #fff;
   padding: 40px;
   text-align: center;
-  margin-bottom: 0; /* Remove the default margin-bottom */
+  margin-bottom: 0;
 }
 
 #contact p {
@@ -238,6 +261,7 @@ h2 {
   color: #fff;
   text-decoration: none;
 }
+
 .mobile-images img {
   height: 200px;
   width: 100px;
@@ -248,20 +272,18 @@ h2 {
   flex-direction: column;
   border: 0.5px solid #ccc;
   flex-direction: column;
-
   color: #fff;
   border-radius: 20px;
 }
+
 .desktop-images img {
   height: 200px;
   width: 280px;
-  /* Adjust the width to evenly distribute three projects in one row with a gap */
   box-sizing: border-box;
   padding: 5px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
   flex-direction: column;
-
   color: #fff;
   border-radius: 20px;
 }
@@ -274,6 +296,7 @@ h2 {
   justify-content: center;
   margin-top: 40px;
 }
+
 .smwa-hero-content {
   display: flex;
   justify-content: space-between;
@@ -283,12 +306,14 @@ h2 {
 .smwa-hero-text {
   margin-right: 10rem;
 }
+
 .smwa-hero-text h1 {
   color: #fff;
   font-size: 50px;
   margin-left: 120px;
   text-align: center;
 }
+
 .smwa-hero-text p {
   font-size: 30px;
   color: #fff;
@@ -298,6 +323,7 @@ h2 {
   line-height: 1.4;
   text-align: center;
 }
+
 .smwa-hero-icons {
   display: flex;
   align-items: center;
@@ -328,7 +354,7 @@ h2 {
 .icon-row i {
   font-size: 5rem;
   color: #fff;
-  margin-right: 40px; /* Add a right margin */
+  margin-right: 40px;
 }
 
 .icon-row i:not(:last-child) {
@@ -356,16 +382,103 @@ h1 {
   color: #333;
   font-size: 40px;
 }
+
 h2 {
   color: #333;
   font-size: 30px;
   margin-top: 0;
 }
+
 .hero-text p {
   font-size: 30px;
   color: #fff;
-
   opacity: 0.8;
   font-weight: 200;
   line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  /* CSS rules for screens with a maximum width of 768px */
+  .nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav ul li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .logo {
+    margin-left: 0;
+  }
+  .nav {
+    padding: 15px;
+  }
+  .header {
+    margin-top: 80px;
+  }
+  .hero-content {
+    flex-direction: column-reverse;
+  }
+  .hero-text {
+    margin-right: 0;
+    text-align: center;
+  }
+  .hero-icons {
+    margin-right: 0;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .icon-row {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .icon-row i:not(:last-child) {
+    margin-right: 30px;
+  }
+  .project-container {
+    justify-content: center;
+  }
+  .project {
+    width: 100%;
+    margin-right: 0;
+  }
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-container img {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .about-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  /* CSS rules for screens with a maximum width of 480px */
+  .hero-text h1 {
+    font-size: 30px;
+  }
+  .hero-text p {
+    font-size: 24px;
+  }
+  .mobile-images img {
+    height: 150px;
+    width: 80px;
+  }
+  .desktop-images img {
+    height: 150px;
+    width: 200px;
+  }
+  .smwa-hero-text h1 {
+    font-size: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .smwa-hero-text p {
+    font-size: 24px;
+  }
 }
