@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body>
     <!-- Navigation Bar -->
     <nav>
+      <a href="#home" class="logo">Isha Tamang</a>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
@@ -18,44 +23,155 @@
     </nav>
 
     <!-- Home Section -->
-    <header id="home">
-      <h1>Your Name</h1>
+    <header>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hello!</h1>
+          <p>I'm Isha Tamang,</p>
+          <p>UI & UX Designer</p>
+        </div>
+        <div class="hero-icons">
+          <div class="icon-row">
+            <i class="fas fa-paint-brush"></i>
+            <i class="fas fa-palette"></i>
+          </div>
+          <div class="icon-row">
+            <i class="fas fa-mobile-alt"></i>
+            <i class="fas fa-tablet-alt"></i>
+            <i class="fas fa-desktop"></i>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- Portfolio Section -->
     <section id="portfolio">
-      <h2>Portfolio</h2>
-      <div class="project">
-        <img src="project1.jpg" alt="Project 1" />
-        <div class="project-info">
-          <h3>Project 1</h3>
-          <p>Description of Project 1</p>
+      <h1>Portfolio</h1>
+      <h2>UI/UX Design Projects</h2>
+      <div class="project-container">
+        <div class="project">
+          <a href="smwa.html" target="_blank">
+            <div id="smwa">
+              <h3>Student Mental Wellbeing Application (SMWA)</h3>
+              <div class="mobile-images">
+                <img
+                  src="images/smwa-homepage.png"
+                  alt="Student mental wellbeing application"
+                />
+              </div>
+            </div>
+          </a>
         </div>
-      </div>
-      <div class="project">
-        <img src="project2.jpg" alt="Project 2" />
-        <div class="project-info">
-          <h3>Project 2</h3>
-          <p>Description of Project 2</p>
+        <div class="project">
+          <div class="project-info">
+            <h3>Freeley Palmer</h3>
+            <div class="desktop-images">
+              <img
+                src="images/FP-LOGIN.png"
+                alt="Student mental wellbeing application"
+              />
+            </div>
+          </div>
         </div>
+        <div class="project">
+          <div class="project-info">
+            <h3>The Linear Academy</h3>
+            <div class="desktop-images">
+              <img
+                src="images/TLA.png"
+                alt="Student mental wellbeing application"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Add more project items as needed -->
       </div>
-      <!-- Add more project items as needed -->
+      <div class="project-container">
+        <div class="project">
+          <div class="project-info">
+            <h3>Project 1</h3>
+            <img
+              src="images/smwa-homepage.png"
+              alt="Student mental wellbeing application"
+            />
+            <div class="project-info">
+              <p>Description of Project 1</p>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <img src="project2.jpg" alt="Project 2" />
+          <div class="project-info">
+            <h3>Project 2</h3>
+            <p>Description of Project 2</p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="project2.jpg" alt="Project 2" />
+          <div class="project-info">
+            <h3>Project 2</h3>
+            <p>Description of Project 2</p>
+          </div>
+        </div>
+        <!-- Add more project items as needed -->
+      </div>
     </section>
 
     <!-- About Section -->
+    <!-- About Section -->
     <section id="about">
       <h2>About Me</h2>
-      <img src="your-image.jpg" alt="Your Image" />
-      <p>Short description about yourself.</p>
+      <div class="about-container">
+        <img src="images/pic.JPG" alt="profile picture" />
+        <div class="about-text">
+          <p>
+            Hello, I'm Isha Tamang, a UI/UX designer with a Masters in IT from
+            UWE Bristol and a recent graduate of a software engineering
+            bootcamp. With a few months of experience in UI/UX design, I have a
+            solid foundation in front-end and back-end development, including
+            JavaScript, HTML, CSS, and RESTful APIs. I am proficient in using
+            tools like Figma for design and have worked with technologies like
+            React.
+          </p>
+          <p>
+            During my bootcamp, I gained practical experience in working with a
+            Test-Driven Development (TDD) approach and following Agile
+            methodologies. I also have experience collaborating in pair
+            programming and group projects, both in academic and professional
+            settings.
+          </p>
+          <p>
+            Beyond my technical skills, I have a passion for art, painting, and
+            photography, which influences my creative approach to design.
+            Originally from Nepal and currently residing in Bristol, UK, I bring
+            a diverse perspective to my work.
+          </p>
+          <p>
+            I invite you to explore my portfolio, where you can see examples of
+            my design work and projects. Feel free to reach out to me for any
+            opportunities or collaborations. I'm excited to contribute my skills
+            and creativity to meaningful projects.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <footer id="contact">
       <h2>Contact</h2>
-      <p>Email: your-email@example.com</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/">LinkedIn Profile</a></p>
-      <p>GitHub: <a href="https://github.com/">GitHub Profile</a></p>
-    </section>
+      <p>Email: isha.zimba@gmail.com</p>
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/isha-tamang/" target="_blank"
+          >isha-tamang</a
+        >
+      </p>
+      <p>
+        GitHub:
+        <a href="https://github.com/ishazimba" target="_blank">ishazimba</a>
+      </p>
+      <p>© 2023 Isha Tamang. All rights reserved.</p>
+    </footer>
 
     <!-- Add additional sections and content as needed -->
 
