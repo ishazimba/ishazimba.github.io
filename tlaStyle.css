@@ -135,9 +135,12 @@ h2 {
   margin-bottom: 20px; /* Add margin-bottom to separate each project */
   border-radius: 5px;
 }
+.project-image.small-image {
+  max-width: 300px;
+}
 
-.project-image.user-research {
-  max-width: 200px; /* Adjust the width as desired */
+.project-image.image {
+  max-width: 500px; /* Adjust the width as desired */
 }
 .project-text {
   flex: 1;

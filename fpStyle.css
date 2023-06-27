@@ -291,37 +291,34 @@ h2 {
   margin-right: 60px; /* Increase the right margin for all icons except the last one */
 }
 
-@media (max-width: 768px) {
-  .icon-row i {
-    font-size: 28px;
-  }
-}
-
 @media (max-width: 480px) {
-  .icon-row i {
-    font-size: 24px;
+  nav {
+    padding-right: 0;
+    width: 100%;
   }
-}
 
-.hero-text h1 {
-  color: #fff;
-  font-size: 50px;
-}
+  nav ul {
+    display: none; /* Hide the navigation links on mobile screens */
+  }
 
-h1 {
-  color: #333;
-  font-size: 40px;
-}
-h2 {
-  color: #333;
-  font-size: 30px;
-  margin-top: 0;
-}
-.hero-text p {
-  font-size: 30px;
-  color: #fff;
+  nav .logo {
+    margin-left: 20px;
+  }
 
-  opacity: 0.8;
-  font-weight: 200;
-  line-height: 1.4;
+  nav.active ul {
+    display: flex; /* Display the navigation links as a vertical list when the navigation is active */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav.active ul li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  /* Show the navigation links in a vertical list */
+  nav ul li {
+    display: block;
+    text-align: center;
+  }
 }

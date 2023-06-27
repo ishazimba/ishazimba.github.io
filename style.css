@@ -482,3 +482,114 @@ h2 {
     font-size: 24px;
   }
 }
+/* Styles for desktop screens */
+/* Add your existing CSS code for desktop screens here */
+
+/* Styles for mobile screens */
+
+@media (max-width: 768px) {
+  .nav {
+    padding-right: 0;
+    padding-left: 15px;
+    width: 100%;
+  }
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: auto; /* Align the links to the right */
+  }
+
+  nav ul li {
+    margin-right: 10px; /* Add margin between each link */
+  }
+
+  nav ul li:first-child {
+    margin-right: auto; /* Move the first link (logo) to the right */
+  }
+
+  nav ul li a {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .header {
+    margin-top: 80px;
+  }
+
+  .hero-text {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .hero-icons {
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .icon-row {
+    justify-content: center;
+  }
+
+  .icon-row i:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .project-container {
+    justify-content: center;
+  }
+
+  .project {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-container img {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .smwa-hero-text {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .smwa-hero-text h1 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .smwa-hero-text p {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .smwa-hero-icons {
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .smwa-icon-row {
+    justify-content: center;
+  }
+
+  .icon-row i:not(:last-child) {
+    margin-right: 30px;
+  }
+}
